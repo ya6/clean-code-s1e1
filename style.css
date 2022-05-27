@@ -18,7 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.cover { text-align: center;
+.cover {
+    text-align: center;
 }
 }
 .main-section {
