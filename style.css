@@ -21,7 +21,7 @@ body {
 .cover { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-section {
     display: block;
     width: 500px;
     margin: 0 auto 0;
