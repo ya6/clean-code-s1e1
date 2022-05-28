@@ -32,7 +32,7 @@ button {
   }
 }
 
-.main-section {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -44,7 +44,7 @@ button {
   flex-grow: 1;
 }
 
-.main-section__task-row-wrapper {
+.task-row-wrapper {
   display: flex;
   margin-top: 1rem;
 }
@@ -69,7 +69,7 @@ button {
 }
 
 /* Heading */
-.main-section__headline {
+.headline {
   color: #333;
   font-weight: 700;
   font-size: 15px;
