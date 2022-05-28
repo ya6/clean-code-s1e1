@@ -109,11 +109,11 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid red; */
 }
 
 .section__item > input[type='checkbox'] {
   margin: 0 10px;
+  border: 1px solid red;
 }
 
 .section__item > label {
@@ -148,7 +148,7 @@ button {
   display: none;
 }
 
-.section__item.edit-mode input[type='text'] {
+.edit-mode input[type='text'] {
   display: inline-block;
   width: 224px;
 }
