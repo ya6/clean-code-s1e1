@@ -96,7 +96,7 @@ button {
   color: #333;
 }
 
-#new-task {
+#newTask {
   width: 318px;
 }
 
@@ -138,21 +138,21 @@ button {
 }
 
 /* Completed */
-#completed-tasks label {
+#completedTasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.item input[type='text'] {
+.section__item input[type='text'] {
   display: none;
 }
 
-.item.edit-mode input[type='text'] {
+.section__item.edit-mode input[type='text'] {
   display: inline-block;
   width: 224px;
 }
 
-.item.edit-mode label {
+.section__item.edit-mode label {
   display: none;
 }
