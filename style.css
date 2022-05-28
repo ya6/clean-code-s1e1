@@ -22,7 +22,7 @@ button {
   width: 100%;
 }
 
-.cover .more-inf {
+.cover__link {
   font-family: fantasy, cursive;
 }
 
@@ -38,13 +38,13 @@ button {
   margin: 0 auto 0;
 }
 
-.task {
+.section__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main-section__task-row-wrapper {
   display: flex;
   margin-top: 1rem;
 }
@@ -69,7 +69,7 @@ button {
 }
 
 /* Heading */
-.headline {
+.main-section__headline {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,7 +101,7 @@ button {
 }
 
 /* Task list */
-.item {
+.section__item {
   list-style: none;
   overflow: hidden;
   padding: 20px 0;
@@ -112,18 +112,18 @@ button {
   /* border: 1px solid red; */
 }
 
-.item > input[type='checkbox'] {
+.section__item > input[type='checkbox'] {
   margin: 0 10px;
 }
 
-.item > label {
+.section__item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.item > input[type='text'] {
+.section__item > input[type='text'] {
   width: 226px;
 }
 
