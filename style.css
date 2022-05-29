@@ -1,6 +1,6 @@
 /* Reset Styles */
-input,
-button {
+input
+ {
   outline: none;
 }
 
@@ -13,7 +13,7 @@ button {
 
 .cover {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 12px;
   display: block;
   text-align: right;
 }
@@ -36,6 +36,10 @@ button {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+
+.add-task {
+  margin: 1rem 0;
 }
 
 .section__task {
@@ -143,11 +147,11 @@ button {
 }
 
 /* Edit Task */
-.section__item input[type='text'] {
+.section__item .input {
   display: none;
 }
 
-.edit-mode input[type='text'] {
+.edit-mode .input {
   display: inline-block;
   width: 224px;
 }
@@ -155,5 +159,3 @@ button {
 .section__item.edit-mode label {
   display: none;
 }
-
-
