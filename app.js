@@ -41,7 +41,7 @@ var createNewTaskElement=function(taskString){
     checkBox.className="section__control";
   
     editInput.type="text";
-    editInput.className="section__task";
+    editInput.className="section__task input";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="btn edit"; //change by ya6
