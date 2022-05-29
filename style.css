@@ -42,6 +42,10 @@ button {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 .task-row-wrapper {
@@ -111,20 +115,13 @@ button {
   align-items: center;
 }
 
-.section__item > input[type='checkbox'] {
+.section__control {
   margin: 0 10px;
-  border: 1px solid red;
 }
 
-.section__item > label {
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
+.section__item .input {
   width: 226px;
-}
-
-.section__item > input[type='text'] {
-  width: 226px;
+  /* background: blue; */
 }
 
 .btn.delete img {
@@ -156,3 +153,5 @@ button {
 .section__item.edit-mode label {
   display: none;
 }
+
+
