@@ -130,13 +130,13 @@ input
   /* background: blue; */
 }
 
-.btn.delete img {
+.btn.btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete img:hover {
+.btn.btn__delete img:hover {
   transform: rotateZ(0);
 }
 
