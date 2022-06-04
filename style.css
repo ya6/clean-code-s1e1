@@ -53,7 +53,7 @@ input
   width: 226px;
 }
 
-.task-row-wrapper {
+.section-new-task__task-row-wrapper {
   display: flex;
   margin-top: 1rem;
 }
