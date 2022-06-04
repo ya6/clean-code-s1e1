@@ -38,7 +38,7 @@ input
   margin: 0 auto 0;
 }
 
-.section_task {
+.section__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -84,7 +84,7 @@ input
   text-transform: uppercase;
 }
 
-.input {
+.section_input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -98,7 +98,7 @@ input
   color: #888;
 }
 
-.input:focus {
+.section_input:focus {
   color: #333;
 }
 
@@ -121,18 +121,18 @@ input
   margin: 0 10px;
 }
 
-.section__item .input {
+.section__item .section_input {
   width: 226px;
   /* background: blue; */
 }
 
-.btn.btn__delete img {
+.btn.btn_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.btn__delete img:hover {
+.btn.btn_delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -143,11 +143,11 @@ input
 }
 
 /* Edit Task */
-.section__item .input {
+.section__item .section_input {
   display: none;
 }
 
-.edit-mode .input {
+.edit-mode .section_input {
   display: inline-block;
   width: 224px;
 }
