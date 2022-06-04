@@ -123,7 +123,6 @@ input
 
 .section__item .section_input {
   width: 226px;
-  /* background: blue; */
 }
 
 .remove-img {
@@ -136,8 +135,7 @@ input
   transform: rotateZ(0);
 }
 
-/* Completed */
-#completedTasks label {
+#completed-tasks .section__label{
   text-decoration: line-through;
   color: #888;
 }
@@ -152,6 +150,6 @@ input
   width: 224px;
 }
 
-.section__item.edit-mode label {
+.section__item.edit-mode .section__label {
   display: none;
 }
