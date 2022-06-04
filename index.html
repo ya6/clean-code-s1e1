@@ -14,25 +14,26 @@
   <main class="main">
     <section class="section-new-task">
       <h3 class="headline">Add Item</h3>
-      <div class="section-new-task__task-row-wrapper">
-        <input id="newTask" class="section__task input" type="text">
+      <div class="task-row-wrapper">
+        <input id="newTask" class="section_task input" type="text">
         <button class="btn">Add</button>
       </div>
     </section >
-    <section class="section-incomplete-tasks">
+    
+    <section class="section incomplete-tasks">
     <h3 class="headline">Todo</h3>
-    <ul id="incompleteTasks" class="section">
+    <ul id="incompleteTasks" class="section_zero-indents">
       <li class="section__item">
         <input  class="section__control" type="checkbox">
-        <label class="section__task">Pay Bills</label>
-        <input type="text" class="section__task input">
+        <label class="section_task">Pay Bills</label>
+        <input type="text" class="section_task input">
         <button class="btn btn__edit">Edit</button>
         <button class="btn btn__delete"><img src="./remove.svg" alt="remove"></button>
       </li>
       <li class="section__item edit-mode">
         <input class="section__control" type="checkbox">
-        <label class="section__task">Go Shopping</label>
-        <input type="text" value="Go Shopping" class="section__task input">
+        <label class="section_task">Go Shopping</label>
+        <input type="text" value="Go Shopping" class="section_task input">
         <button class="btn btn__edit">Save</button>
         <button class="btn btn__delete">
           <img src="./remove.svg" alt="remove">
@@ -40,13 +41,13 @@
       </li>
     </ul>
     </section>
-    <section class="section-completed-tasks">
+    <section class="section completed-tasks">
     <h3 class="headline">Completed</h3>
-    <ul id="completedTasks" class="section">
+    <ul id="completedTasks" class="section_zero-indents">
       <li class="section__item">
         <input class="section__control" type="checkbox" checked>
-        <label class="section__task">See the Doctor</label>
-        <input type="text" class="section__task input">
+        <label class="section_task">See the Doctor</label>
+        <input type="text" class="section_task input">
         <button class="btn btn__edit">Edit</button>
         <button class="btn btn__delete"><img src="./remove.svg" alt="remove"></button>
       </li>
